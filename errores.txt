@@ -1,0 +1,2 @@
+'tuple' object has no attribute 'get'
+Solucion: utilizar "render" al hacer return en las views

@@ -1,0 +1,47 @@
+mensaje1 = Mensaje(
+	textoMensaje = "Estuviste cerca en los penales, nos vemos el año que viene.",
+	remitente = "Boca",
+	destinatario = "Cruzeiro",
+)
+
+mensaje2 = Mensaje(
+	textoMensaje = "Que sorte você teve nos pênaltis, ano que vem não será a mesma coisa.",
+	remitente = "Cruzeiro",
+	destinatario = "Boca",
+)
+
+mensaje3 = Mensaje(
+	textoMensaje = "Nos vemos el 22 de septiembre, no me faltes.",
+	remitente = "Boca",
+	destinatario = "River",
+)
+
+mensaje4 = Mensaje(
+	textoMensaje = "You have tired us with no determination on put the money, Velasco stays in our club.",
+	remitente = "Dallas",
+	destinatario = "Boca",
+)
+
+mensaje5 = Mensaje(
+	textoMensaje = "Gracias por traerme y confiarme el ejército que te pedí hace varios meses.",
+	remitente = "Rhaenyra",
+	destinatario = "Daemon",
+)
+
+mensaje6 = Mensaje(
+	textoMensaje = "Por favor, podemos parar la guerra antes de que comience?",
+	remitente = "Alicent",
+	destinatario = "Rhaenyra",
+)
+
+mensaje7 = Mensaje(
+	textoMensaje = "La guerra ya comenzó, y la única forma de que termine es hijo por hijo. Necesito la cabeza de Aegon y cuando tenga el trono, terminaré.",
+	remitente = "Rhaenyra",
+	destinatario = "Alicent",
+)
+
+mensaje8 = Mensaje(
+	textoMensaje = "Idīnnon dēmalio syt verdilla mērī issa. Dīnakson toliot, gaoso gaomagon kostas.",
+	remitente = "Daemon",
+	destinatario = "Rhaenyra",
+)

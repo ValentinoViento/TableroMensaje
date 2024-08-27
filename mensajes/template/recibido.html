@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Trabajo Práctico n° 1</title>
+</head>
+
+<body>
+    <h1>Mensajes enviados</h1>
+
+<form method="GET">
+    <input type="radio" name="mensaje_remitente" value="Boca"> Boca
+    <input type="radio" name="mensaje_remitente" value="Rhaenyra"> Rhaenyra
+    <button type="submit">Filtrar remitentes</button>
+</form>
+
+<ul>
+    {% for mensaje in mensajes_remitente %}
+    <li>
+        De: <b>{{ mensaje.remitente }}</b> 
+        Para: <b>{{ mensaje.destinatario }}</b> 
+        <br>{{ mensaje.textoMensaje }}
+        <br><b>Fecha enviado</b> {{ mensaje.fechaEnvio }}<br><br>
+    </li>
+    {% endfor %}
+</ul>
+
+<h1>Mensajes recibidos</h1>
+
+<form method="GET"> 
+    <input type="radio" name="mensaje_destinatario" value="Boca"> Boca
+    <input type="radio" name="mensaje_destinatario" value="Rhaenyra"> Rhaenyra
+    <button type="submit">Filtrar destinatarios</button>
+</form>
+
+<ul>
+    {% for mensaje in mensajes_destinatario %}
+    <li>
+        De: <b>{{ mensaje.remitente }}</b> 
+        Para: <b>{{ mensaje.destinatario }}</b> 
+        <br>{{ mensaje.textoMensaje }}
+        <br><b>Fecha enviado</b> {{ mensaje.fechaEnvio }}<br><br> 
+    </li>
+    {% endfor %}
+</ul>
+</body>
+</html>
